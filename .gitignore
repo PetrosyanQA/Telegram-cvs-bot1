@@ -3,11 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
+# Environments
+.env
+venv/
+env/
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
@@ -23,25 +24,6 @@ var/
 .installed.cfg
 *.egg
 
-# PyInstaller
-*.manifest
-*.spec
-
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
-# Virtual environment
-venv/
-ENV/
-env/
-.env
-
-# VSCode
-.vscode/
-
-# MacOS
-.DS_Store
-
-# Logs
-*.log

@@ -1,37 +1,41 @@
 # Python bytecode
-_pycache_/
+__pycache__/
 *.py[cod]
 *$py.class
+
 # C extensions
 *.so
+
 # Environments
 .env
-venv/
-env/
-# Distribution/packaging
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
 .installed.cfg
-.egg
+*.egg
+
 # PyInstaller
 *.manifest
-*.manifest
-
 *.spec
 
 # Installer logs
 pip-log.txt
-pip-delete-this- directory.txt
-#Virtual environment
+pip-delete-this-directory.txt
+
+# Virtual environment
 venv/
 ENV/
 env/
-env
+
 # VSCode
 .vscode/
+
 # MacOS
-.DS Store
+.DS_Store
+
 # Logs
 *.log
+

@@ -27,7 +27,7 @@ async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="llama-3.3-70b-versatile",
         messages=[{"role":"user","content":user_message}]
     )
     await update.message.reply_text(response.choices[0].message.content)
